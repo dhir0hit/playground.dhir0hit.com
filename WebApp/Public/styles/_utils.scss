@@ -1,0 +1,23 @@
+@mixin --create-flex($direction:row, $justify-content:normal, $align-items:normal, $column-gap:0, $row-gap:0, $wrap:no-wrap) {
+  display: flex;
+
+  flex-direction: $direction;
+  -ms-flex-direction: $direction;
+  -webkit-flex-direction: $direction;
+
+  justify-content: $justify-content;
+  -webkit-justify-content: $justify-content;
+
+  align-items: $align-items;
+  -webkit-align-items: $align-items;
+
+  column-gap: $column-gap;
+  -moz-column-gap: $column-gap;
+  -webkit-column-gap: $column-gap;
+
+  row-gap: $row-gap;
+
+  flex-wrap: $wrap;
+  -ms-flex-wrap: $wrap;
+  -webkit-flex-wrap: $wrap;
+}

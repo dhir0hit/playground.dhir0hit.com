@@ -1,0 +1,16 @@
+go 1.19
+
+use (
+	.
+
+	Controller
+	Controller/Home
+	Controller/Projects
+	Controller/Playground
+	Controller/Playground/Components
+	Controller/Playground/CustomComponents
+
+	Utils
+	Data
+	WebApp
+)

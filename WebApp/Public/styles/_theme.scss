@@ -1,0 +1,47 @@
+/*
+Default Styles
+*/
+:root {
+  --background-color: #ffffff;
+  --primary-color: #BFC0C0;
+  --secondary-color: #4F5D75;
+  --text-color: #2D3142;
+  --highlight-color: #EF8354;
+}
+
+/*
+Dark mode from System
+*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #2D3142;
+    --primary-color: #4F5D75;
+    --secondary-color: #BFC0C0;
+    --text-color: #ffffff;
+    --highlight-color: #EF8354;
+  }
+}
+
+/*
+Custom selected
+Light Mode
+*/
+#light-mode {
+  --background-color: #ffffff;
+  --primary-color: #BFC0C0;
+  --secondary-color: #4F5D75;
+  --text-color: #2D3142;
+  --highlight-color: #EF8354;
+}
+
+/*
+Custom selected
+Dark Mode
+*/
+#dark-mode {
+  --background-color: #2D3142;
+  --primary-color: #4F5D75;
+  --secondary-color: #BFC0C0;
+  --text-color: #ffffff;
+  --highlight-color: #EF8354;
+}
